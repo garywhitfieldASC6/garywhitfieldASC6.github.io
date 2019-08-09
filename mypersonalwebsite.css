@@ -1,0 +1,99 @@
+body {
+    background-image: url("courts.jpg");
+    background-repeat: no-repeat;
+    width: 99.4%;
+    background-size: cover;
+    /* height: initial; */
+}
+
+#div1{
+    background-color: black;
+    font-family: serif;
+    font-size:105%;
+    display:flex;
+    color:white;
+    justify-content: space-between;
+
+}
+#courtoombackground{
+    background:"courtbackground.jpg"
+}
+
+#div1_child{
+    background-color:brown;
+    font-family: serif;
+    font-size:95%;
+    display:flex;
+    color:white;
+    align-items: center
+}
+
+h1{
+    text-align: center;
+    font-family: Georgia;
+    color: gold;
+}
+
+#div2_child {
+    font-family: Georgia;
+    color: goldenrod;
+}
+
+#y {
+    align-items: flex-end;
+}
+#div1 div:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50)
+}
+
+#div2 iframe{
+    float: center;
+}
+#div2 {
+    display: flex;
+    justify-content: center; 
+}
+
+#div2_child div{
+    background-color: brown;
+}
+
+
+/* Get rid of purple a tag */
+#div1 a{
+    color: white;
+    text-decoration: none;
+}
+#big_div{
+    display: flex;
+    justify-content: flex-end; 
+    background-color: brown;
+    font-family: Georgia;
+    color: goldenrod;
+
+}
+#big_div h2{
+    color: gold;
+
+}
+#big_div2 h2{
+
+font-family: Georgia;
+color: gold;
+}
+
+#section1 h2{
+    color: gold;
+}
+
+#big_div2 p{
+    background-color: brown;
+    color: goldenrod;
+    font-family: 'Georgia';
+}
+
+#section3 {
+    font-family: 'Georgia';
+    color: gold;
+}
